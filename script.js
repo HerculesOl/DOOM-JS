@@ -20,7 +20,7 @@ function adicionarItem(){
 
 
 //5ª 
-function ocListatarSenha(){
+function ocultarSenha(){
     const senha = document.querySelector('input')
     if(senha.type == 'password'){
     senha.setAttribute('type','text')
